@@ -1,35 +1,39 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../SaskPolyWebMaster.css" />
-
+    <link rel="stylesheet" href="../SaskPolyWebMaster.css">
+    
     <!-- creating favicon -->
-    <link rel="icon" href="../assets/2000860.png" type="image/x-icon" />
-
+    <link rel="icon" href="../assets/download.png" type="image/x-icon" />
+    
     <!-- creating site title -->
-    <title>SaskPoly-WebMaster</title>
+    <title>T-shirt design competition - SaskPoly-WebMaster</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="site-id">
             <a href="../index.html">
-                <img src="../assets/2000860.png"  width= "100px" height= "100px" class="logo" alt="logo-SaskPolyWebMaster" >
+                <img src="../assets/download.png"  width= "100px" height= "100px" class="logo" alt="logo-SaskPolyWebMaster" >
             </a>
-          
-            <h1>
-              <a href="../index.html">SaskPoly-WebMaster</a>
-            </h1>
+          <div>
+
+              <h1>
+                <a href="../index.html">T-shirt design competition </a>
+              </h1>
+              <p>make a T-shirt for SaskPoly-WebMaster</p>
+          </div>
         </div>
               <ul class="site-navigation">
-                <li><a href="../index.html">home</a></li>
-                <li><a href="#">Program Information</a></li>
-                <li><a href="#">Faculty</a></li>
-                <li><a href="#">Schedules</a></li>
-                <li><a href="#">Policies</a></li>
+                  
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#options">About the competition</a></li>
+                  
+                  <li><a href="#">Policies</a></li>
+                  <li><a href="#">Contact us</a></li>
                 </ul>
         </div>
       </nav>
@@ -39,69 +43,54 @@
     
       
 <h1 class="courses-heading">
-  All Courses
+ Registrtion Form
 </h1>
         
           
         <p class="question-description">
-          This course is designed to provide students with the skills and knowledge required to design and develop websites. Students will learn to design and develop websites using current web development tools and techniques. Students will also learn to design and develop websites that are accessible to all users.
+          Please fill out the form below to register for the T-shirt design competition.
         </p>
         
-          <div class="questions-grid">
-          <div class="questions-grid-item">
-            <div class="grid-item-img">
-              <img
-                src="../assets/elements-web-design-opt-750x498.jpg"
-                alt="Design101"
-                width="70px"
-                height="70px"
-              />
-            </div>
-            <h4 class="grid-item-title">Design 101</h4>
-            <p class="grid-item-description">
-              This course is designed to provide students with the skills and knowledge required to design and develop websites. Students will learn to design and develop websites using current web development tools and techniques. Students will also learn to design websites that are accessible to all users.
-            </p>
-          </div>
-          <a href="./informationDesign103.html">
+      
+         <form action="#">
+          <fieldset>
+            <label for="name">
+              <span class="question">Name</span>
+              <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </label>
+            <label for="email">
+              <span class="question">Email</span>
+              <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </label>
+            <label for="phone">
+              <span class="question">Phone</span>
+              <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+            </label>
+            <label for="student-id">
+              <span class="question">Student ID</span>
+              <input type="text" name="student-it" id="student-id" placeholder="Enter your student-id" required> 
+            </label>
+            <label for="program">
+              <span class="question">Program</span>
+              <select name="program" id="program" required>
+                <option value="web-development">Web Design and Development</option>
+                
+                <option value="digital-marketing">Interative Design and Technology</option>
+              </select>
+            </label>
 
+            <button
+              type="submit"
+              class="submit-button">
+              Submit
+            </button>
+          </fieldset>
+         </form>
 
-            <div class="questions-grid-item">
-              <div class="grid-item-img">
-                <img
-                src="../assets/elements-web-design-opt-750x498.jpg"
-                alt="Design101"
-                width="70px"
-                height="70px"
-                />
-              </div>
-              <h4 class="grid-item-title">Design 103</h4>
-              <p class="grid-item-description">
-                this course is designed to teach web design in a hands-on environment. Students will learn to design and develop websites using current web development tools and techniques. Students will also learn to design websites that are accessible to all users.             
-              </p>
-            </div>
-          </a>
-          <div class="questions-grid-item">
-            <div class="grid-item-img">
-              <img
-              src="../assets/elements-web-design-opt-750x498.jpg"
-              alt="Design101"
-              width="70px"
-              height="70px"
-              />
-            </div>
-            <h4 class="grid-item-title">Web master 120</h4>
-            <p class="grid-item-description">
-              Help others learn by sharing your knowledge and expertise with
-              answers, comments, and links.
-            </p>
-          </div>
-        
-        </div>
-      </div>
     </main>
     <footer>
       <div class="footer-content">
-        <h3>Website design and development</h3>
+        <h3>T-shit design competition</h3>
         <p>&copy; 2022 Saskatchewan Polytechnic</p>
         <ul class="socials">
           <li><a href="#"><img src="../assets/facebook.png" width="50px" height="50px" alt="facebook" /></a></li>
